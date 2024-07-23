@@ -1,2 +1,2 @@
-print("github")
-print("hhhhhh")
+# 这是个注释
+print("这是一段测试代码")
