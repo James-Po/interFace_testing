@@ -3,3 +3,7 @@
 \n ---> 换⾏,回⻋
 \t ---> 制表符, tab键
 """
+print('Hello World', end=' ')
+print('HelloWorld')
+print('Hello world')
+print('Hello\tWorld')
