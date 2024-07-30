@@ -10,7 +10,7 @@ if 判断条件:
 4, if 语句的代码块中的代码,要么都执⾏,要么都不执⾏
 5, 如果某⾏代码 和if 的判断⽆关,就不需要写在 if 的缩进中
 """
-
+import random
 # 需求1:
 # 1. 定义⼀个整数变量记录输⼊的年龄
 # 2. 判断是否满 18 岁 (>=)
@@ -106,3 +106,45 @@ else:
 # else:
 #     print('垃圾！')
 
+"""
+if 嵌套
+在⼀个if(elif else) 语句中 嵌套另⼀个 if(elif else ) 语句
+判断条件存在递进关系才会使⽤. 即 只有第⼀个条件成⽴,才会判断第⼆个条件
+"""
+# 需求
+# 取款机取钱的过程, 假定 你的密码是: 123456,  账户余额为 1000
+# 1. 提示⽤户输⼊密码
+# 2. 判断密码是否正确
+# 3. 密码正确后,提示输⼊取款的⾦额,
+# 4. 判断取款的⾦额和余额的关系
+# balance = 1000
+# userPwd = '123456'
+# pwd = input('请输入取款密码：')
+# if pwd == userPwd:
+#     print('密码输入正确！')
+#     outMoney = int(input('请输入要取走的金额（元）：'))
+#     if outMoney <= balance:
+#         print(f'领取成功！本次取出金额为{outMoney},余额为：{balance - outMoney}元')
+#     if outMoney > balance:
+#         print('您没有这么多钱！')
+# else:
+#     print('您的取款密码输入有误！')
+
+# 练习
+# 假定某⽹站⽤户名固定为 'admin', 密码固定为'123456',
+# 验证码 固定为 '8888'
+#  1. 获取⽤户输⼊的⽤户名,密码和验证码
+# 2. 先判断验证码是否正确,如果正确打印输出验证码正确,再
+# 判断⽤户名和密码是否正确
+# 3. 如果验证吗不正确,直接输出 验证码不正确,请重新输⼊
+# name = input('Please enter your name: ')
+# pwd = input('Please enter your password: ')
+# code = input('Please enter your code: ')
+# if code == '8888':
+#     print('code is right!')
+#     if name == 'admin' and pwd == '123456':
+#         print('login successful！')
+#     else:
+#         print('login failed,username or password is wrong')
+# else:
+#     print('code is false！')
