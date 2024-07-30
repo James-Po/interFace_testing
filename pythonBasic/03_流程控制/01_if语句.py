@@ -53,9 +53,56 @@ if 和逻辑运算符结合
 # 1. 定义两个整数变量python_score、c_score，使⽤ input
 # 获取成绩 编写代码判断成绩
 # 2. 要求只要有⼀⻔成绩 > 60 分就输出合格
-python_score = int(input('输入你的Python语言课程成绩：'))
-c_score = int(input('输入你的C语言课程成绩：'))
-if python_score > 60 or c_score > 60:
-    print('成绩及格！')
+# python_score = int(input('输入你的Python语言课程成绩：'))
+# c_score = int(input('输入你的C语言课程成绩：'))
+# if python_score > 60 or c_score > 60:
+#     print('成绩及格！')
+# else:
+#     print('小笨蛋！')
+
+# 案例3:
+# 1. 获取⽤户输⼊的⽤户名
+# 2. 判断⽤户名是 admin 时, 在控制台输出: 欢迎 admin 登录!
+# 3. ⽤户名是 test 时, 在控制台输出: 欢迎 test 登录!
+# 4. 如果是其他信息, 在控制台输出: 查⽆此⼈!
+# name = input('请输入您的用户名：')
+# if name == 'admin' or name == 'test':
+#     print(f'欢迎{name}登录！')
+# else:
+#     print('查无此人!')
+
+"""
+# if elif else 如果 ... 如果 ... 否则 ....
+# 多个如果之间存在关系
+if 判断条件1:
+判断条件1成⽴,执⾏的代码
+elif 判断条件2: # 判断条件1 不成⽴
+ 判断条件2成⽴,执⾏的代码
+elif ....:
+ pass
 else:
-    print('小笨蛋！')
+ 以上 判断条件都不成⽴,才会执⾏的代码
+ 
+# 1, elif 是关键字, 后边需要冒号, 回⻋ 和缩进
+# 2, if elif else 的代码结构, 如果某⼀个条件成⽴,其
+他的条件就都不再判断
+"""
+# 需求
+# 1. 定义 score 变量记录考试分数
+# 2. 如果分数是 ⼤于等于 90分 显示 优
+# 3. 如果分数是 ⼤于等于 80分 并且 ⼩于 90分 显示 良
+# 4. 如果分数是 ⼤于等于 70分 并且 ⼩于 80分 显示 中
+# 5. 如果分数是 ⼤于等于 60分 并且 ⼩于 70分 显示 差
+# 6. 其它分数显示 不及格
+# score = int(input('请输入您的分数：'))
+# if score >= 90:
+#     print('优秀')
+# elif score >= 80 and score < 90:
+#     print('良好')
+# elif score >= 70 and score < 80:
+#     print('中等')
+# elif score >= 60 and score < 70:
+#     print('及格')
+# else:
+#     print('垃圾！')
+
