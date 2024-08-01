@@ -14,13 +14,13 @@ while 判断条件:
 # while i < 5:
 #     print(f'这是第{i + 1}次循环')
 #     i += 1
-
-i = 1
-num = 0
-while i <= 100:
-    num += i
-    i += 1
-print(num)
+#
+# i = 1
+# num = 0
+# while i <= 100:
+#     num += i
+#     i += 1
+# print(num)
 """
 死循环和⽆限循环  在程序执⾏层⾯上看起来是⼀样的, 都是代码⼀直执⾏不能停⽌.
 死循环: 是由于 写代码的⼈ 不⼩⼼造成.  bug
@@ -30,3 +30,15 @@ print(num)
 关键字 continue: 当程序代码执⾏遇到 continue, continue 后续的代码不执⾏,但是会继续下⼀次的循环(结束本次循环,继续下⼀次循环)
  break 和 continue 只能⽤在循环中.
 """
+# while True:
+#     player = int(input('请出拳：石头1/剪刀2/布3'))
+#     computer = random.randint(1,3)
+#     if player == 0:
+#         break
+#     if player == 1 and computer == 2 or player == 2 and computer == 3 or player == 3 and computer == 1:
+#         print('玩家胜利')
+#     elif player == computer:
+#         print('平局')
+#     else:
+#         print('电脑胜利')
+
