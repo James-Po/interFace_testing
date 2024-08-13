@@ -63,6 +63,10 @@
 #     func_3()  # 30
 #     func_1()  # 30
 
-"""
+def func1():
+    list1.append(10)
 
-"""
+
+def func2():
+    list1 = [1, 1]
+    list1.append(0)
