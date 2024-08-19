@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="n"
+                 name="note" start-page="LICENSE.md">
+
+    <toc-element toc-title=".venv">
+        <toc-element toc-title="Lib">
+            <toc-element toc-title="site-packages">
+                <toc-element toc-title="debugpy">
+                    <toc-element toc-title="_vendored">
+                        <toc-element toc-title="pydevd">
+                            <toc-element toc-title="pydevd_plugins">
+                                <toc-element toc-title="extensions">
+                                    <toc-element topic="extensions_README.md"/>
+                                </toc-element>
+                            </toc-element>
+                        </toc-element>
+                    </toc-element>
+                </toc-element>
+                <toc-element toc-title="httpcore-1.0.5.dist-info">
+                    <toc-element toc-title="licenses">
+                        <toc-element topic="licenses_LICENSE.md"/>
+                    </toc-element>
+                </toc-element>
+                <toc-element toc-title="httpx-0.27.0.dist-info">
+                    <toc-element toc-title="licenses">
+                        <toc-element topic="httpx-0.27.0.dist-info_licenses_LICENSE.md"/>
+                    </toc-element>
+                </toc-element>
+                <toc-element toc-title="idna-3.7.dist-info">
+                    <toc-element topic="LICENSE.md"/>
+                </toc-element>
+                <toc-element toc-title="jupyter_server">
+                    <toc-element toc-title="i18n">
+                        <toc-element topic="README.md"/>
+                    </toc-element>
+                </toc-element>
+                <toc-element toc-title="nbconvert">
+                    <toc-element toc-title="templates">
+                        <toc-element topic="templates_README.md"/>
+                        <toc-element toc-title="skeleton">
+                            <toc-element topic="skeleton_README.md"/>
+                        </toc-element>
+                    </toc-element>
+                </toc-element>
+                <toc-element toc-title="pyzmq-26.1.0.dist-info">
+                    <toc-element toc-title="licenses">
+                        <toc-element topic="pyzmq-26.1.0.dist-info_licenses_LICENSE.md"/>
+                    </toc-element>
+                </toc-element>
+                <toc-element toc-title="soupsieve-2.6.dist-info">
+                    <toc-element toc-title="licenses">
+                        <toc-element topic="soupsieve-2.6.dist-info_licenses_LICENSE.md"/>
+                    </toc-element>
+                </toc-element>
+                <toc-element toc-title="zmq">
+                    <toc-element toc-title="backend">
+                        <toc-element toc-title="cffi">
+                            <toc-element topic="cffi_README.md"/>
+                        </toc-element>
+                    </toc-element>
+                </toc-element>
+            </toc-element>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="Empty-MD-Topic.md"/>
+</instance-profile>
