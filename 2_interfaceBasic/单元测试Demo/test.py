@@ -1,10 +1,11 @@
-import unittest
+import requests
+import postInfo
 
+session = requests.Session()
+resp = requests.post(url = postInfo.url, headers = postInfo.headers, json = postInfo.json)
 
-class MyTestCase(unittest.TestCase):
-    def test_something(self):
-        self.assertEqual(True, False)  # add assertion here
+my_cookie = resp.cookies
 
-
-if __name__ == '__main__':
-    unittest.main()
+print(resp.text)
+print(resp.json())
+print(my_cookie)
