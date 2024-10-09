@@ -1,0 +1,12 @@
+{
+  "name": "小明",
+  "age": 18,
+  "isMan": true,
+  "school": null,
+  "hobby": ["听歌", "吃饭", "睡觉"],
+  "address":
+  {
+    "country": "中国",
+    "city": "北京"
+  }
+}
