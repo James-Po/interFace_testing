@@ -1,0 +1,22 @@
+[
+  {
+    "name": "小明",
+    "age": 18,
+    "isMan": true,
+    "hobby": ["听歌", "吃饭", "打豆豆"],
+    "address": {
+      "country": "中国",
+      "city": "广州"
+    }
+  },
+  {
+    "name": "小红",
+    "age": 17,
+    "isMan": false,
+    "hobby": ["听歌", "学习", "购物"],
+    "address": {
+      "country": "中国",
+      "city": "北京"
+    }
+  }
+]
