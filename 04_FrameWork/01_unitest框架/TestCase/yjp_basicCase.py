@@ -2,15 +2,13 @@
 import unittest
 
 # 2、定义测试类，只要继承unittest.TestCase 类，就是 测试类
-class TestDemo(unittest.TestCase):
+class TestDemo1(unittest.TestCase):
     # 3、书写测试方法，方法中的代码就是真正用例代码，方法名称必须以 test 开头
     def test_method1(self):
-        self.assertEqual(1, 1)
-        self.assertEqual(2, 2)
-        print('这是个测试方法')
+        print('这是个测试方法1-1')
 
     def test_method2(self):
-        print('这是个测试方法2')
+        print('这是个测试方法1-2')
 
 
 '''
@@ -21,5 +19,5 @@ class TestDemo(unittest.TestCase):
 '''
 
 # 4.1 在住程序使用 unittest.main() 来执行
-if __name__ == '__main__':
-    unittest.main()
+# if __name__ == '__main__':
+#     unittest.main()
