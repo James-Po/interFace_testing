@@ -1,8 +1,8 @@
 # 1、导包，unittest
 import unittest
 
-from yjp_basicCase import TestDemo1
-from yjp_secondCase import TestDemo2
+from yjp_1_01_basicCase import TestDemo1
+from yjp_1_02_secondCase import TestDemo2
 
 # 2、创建实例化套件对象 unittest.TestSuite()
 suite = unittest.TestSuite()
