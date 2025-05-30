@@ -3,7 +3,7 @@
 # 2. 使⽤获取到的数据进⾏加法运算
 # 3. 在控制台输出计算结果，格式要求:xx + xx = xx
 
-# 练习1
+# 练习
 # input接收的字符默认为string
 num1 = int(input('Please input first number:'))
 num2 = int(input('Please input second number:'))
