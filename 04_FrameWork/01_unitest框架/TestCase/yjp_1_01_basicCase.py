@@ -17,7 +17,7 @@ class TestDemo1(unittest.TestCase):
 4.1.1 在类名后面，执行类中的所有的测试方法
 4.1.2 在方法名后边，只执行当前的测试方法
 '''
-
+"hh"
 # 4.1 在住程序使用 unittest.main() 来执行
 # if __name__ == '__main__':
 #     unittest.main()
